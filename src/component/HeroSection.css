@@ -1,3 +1,27 @@
 section{
     display: flex;
+    justify-content: center;
+
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-height:100vh;
+    row-gap: 50px;
+}
+
+.hero-image{
+    width: 50%;
+}
+
+.hero-btn button{
+    margin: 30px;
+}
+
+.brand-icons{
+    padding-left: 0px;
 }
